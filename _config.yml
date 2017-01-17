@@ -7,10 +7,10 @@ url: "https://ciaranshu.github.io"
 
 
 # Secondary Parameters
-baseurl: "/"
-header-img: /img/home-bg.jpg
+baseurl: ""
+header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /img/logos/Project-Pages-New-Logo.png
+logo: img/logos/Project-Pages-New-Logo.png
 
 # Tertiary Parameters
 github_username:  Ciaranshu
@@ -36,7 +36,7 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: /img/home-bg.jpg
+      header-img: “/img/home-bg.jpg”
 
 # Prose Settings
 prose:

@@ -19,13 +19,16 @@ category: project1
 - b
 
 {%highlight c++%}
+```
 #include<iostream>
+
 using namespace std;
 
-int main(){ß
+int main(){
   cout<<"Hi!Giraffe!"<<endl;
   return 0;
 }
+```
 {%endhighlight%}
 
 #表格

@@ -12,8 +12,8 @@ category: project1
 
 # 这个有点厉害
 
-## 我觉得
-**啦啦啦**
+## Hi
+**某鹿啦啦啦**
 
 - a
 - b
@@ -22,7 +22,7 @@ category: project1
 #include<iostream>
 using namespace std;
 
-int main(){
+int main(){ß
   cout<<"Hi!Giraffe!"<<endl;
   return 0;
 }
@@ -40,5 +40,4 @@ int main(){
 
 >啦啦啦啦
 
-[ciaranshu](ciaranshu
-  .github.io/index.html)
+[ciaranshu](ciaranshu.github.io/index.html)

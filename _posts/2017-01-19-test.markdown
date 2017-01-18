@@ -14,11 +14,21 @@ category: project1
 
 ## 我觉得
 **啦啦啦**
+
 - a
 - b
-```
+
+{%highlight c++%}
 #include<iostream>
-```
+using namespace std;
+
+int main(){
+  cout<<"Hi!Giraffe!"<<endl;
+  return 0;
+}
+{%endhighlight%}
+
+#表格
 
 | Tables        | Are           | Cool  |
 |------------- |:-------------:| -----:|
@@ -31,4 +41,4 @@ category: project1
 >啦啦啦啦
 
 [ciaranshu](ciaranshu
-  .github.io)
+  .github.io/index.html)

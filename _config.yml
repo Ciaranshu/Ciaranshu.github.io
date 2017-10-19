@@ -14,7 +14,7 @@ title: 'Underflow'
 slogan: 'What we talk about when we talk about Underflow?'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '[ Underflow 伏流 ] is the personal blog of Ciaran Shu. "Underflow" is a equivoque here. It's not only the technical term of memory leaking, but also the excrept from Chinese ancient poetry [河出伏流，一泻汪洋].'
+description: '[ Underflow 伏流 ] is the personal blog of Ciaran Shu. "Underflow" is a equivoque here. It is not only the technical term of memory leaking, but also the excrept from Chinese ancient poetry [河出伏流，一泻汪洋].'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Ciaran</a> and my friend <a href="https://www.behance.net/Ametsam">Lin Zerui</a> based on <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</p>'

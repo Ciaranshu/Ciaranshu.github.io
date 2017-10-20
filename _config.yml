@@ -169,8 +169,8 @@ msapplication_tilecolor:                '#fabb00'
 #
 
 socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+    instagram: ciaranshu
+    facebook: Ciaran Shu
 
 
 #        ____  _
@@ -182,7 +182,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+disqus_shortname: Ciaran
 
 
 #      _____

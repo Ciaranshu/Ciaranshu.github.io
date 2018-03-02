@@ -81,3 +81,11 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
+
+# 多语言配置
+gems:           ['jekyll-multiple-languages']
+# 如果需要分页, 请加入 jekyll-paginate 并放于 jekyll-multiple-languages 之前
+# gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
+
+# 所有的语言
+languages:          ['en', 'cn']

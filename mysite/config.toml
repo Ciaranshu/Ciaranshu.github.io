@@ -13,9 +13,8 @@ googleAnalytics = ""
   style = "sea"
   description = "Describe your website"
   copyright = "&copy; 2018 Chang Shu (Ciaran) | All Copyright Reserved | Currently Based in Edinburgh, United Kingdom"
-  sidebarAbout = [" ",
-  "B. Sc of Computer Science @ Uni of Edinburgh.",
-    "Tech: Bioinformatics/ Unsupervised Learning/ Human-Computer Interaction/ Natural Language Understanding",
+  sidebarAbout = [
+    "Tech: Bioinformatics/ Unsupervised Learning/ Natural Language Understanding",
     "Interests: Guitar/ Photography/ Traveling/ Reading/ Football/ Tennis",
   ]
   # Contact page
@@ -36,6 +35,14 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Home"
   url = ""
+
+  [[params.navlinks]]
+  name = "Tech"
+  url = "tech/"
+
+  [[params.navlinks]]
+  name = "Photography"
+  url = "photo/"
 
   [[params.navlinks]]
   name = "About"

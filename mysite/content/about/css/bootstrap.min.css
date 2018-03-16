@@ -80,7 +80,7 @@ html {
 }
 
 @-ms-viewport {
-    width: device-width
+    width: inherit;
 }
 
 article,
@@ -628,6 +628,8 @@ pre code {
     max-height: 340px;
     overflow-y: scroll
 }
+
+
 
 .container {
     margin-right: auto;

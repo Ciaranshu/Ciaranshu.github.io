@@ -12,13 +12,11 @@ googleAnalytics = ""
   # Use custom.css for your custom styling
   style = "sea"
   description = "Describe your website"
-  copyright = "&copy; 2018 Chang Shu (Ciaran) | All Copyright Reserved"
-  sidebarAbout = [
-    "B. Sc of Computer Science @ Uni of Edinburgh.",
-    "Tech: Bioinformatics/ Unsupervised Learning/ Human-Computer Interaction/ Deep Learning/ Natural Language Understanding",
+  copyright = "&copy; 2018 Chang Shu (Ciaran) | All Copyright Reserved | Currently Based in Edinburgh, United Kingdom"
+  sidebarAbout = [" ",
+  "B. Sc of Computer Science @ Uni of Edinburgh.",
+    "Tech: Bioinformatics/ Unsupervised Learning/ Human-Computer Interaction/ Natural Language Understanding",
     "Interests: Guitar/ Photography/ Traveling/ Reading/ Football/ Tennis",
-    "Originally from Shenzhen, China",
-    "Currently based in Edinburgh, United Kingdom."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a

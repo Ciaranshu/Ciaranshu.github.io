@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h2>{{ .Title }}</h2>
+         <div class="h4 mt-0 title">{{ .Title }}</div>
             <iframe
               width="800"
               height="300"
@@ -13,7 +13,6 @@
                 &q=University of Edinburgh" allowfullscreen>
             </iframe>
          {{ .Content }}
-         {{ partial "social_buttons_in_contact.html" . }}
          {{ with .Site.Params.email }}
          <h4>Drop me a message here:</h4>
          <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">

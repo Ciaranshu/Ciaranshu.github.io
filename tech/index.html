@@ -12,6 +12,10 @@
 <link rel="stylesheet" href="https://ciaranshu.github.io/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://ciaranshu.github.io/css/owl.carousel.css">
 <link rel="stylesheet" href="https://ciaranshu.github.io/css/owl.theme.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<link rel=“stylesheet” href=“//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css”>
+
 
 
   <link href="https://ciaranshu.github.io/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
@@ -33,7 +37,7 @@
 
 
 </head>
-<body>
+<body background= "https://ciaranshu.github.io/img/background.jpg">
   <div id="all">
       <div class="container-fluid">
           <div class="row row-offcanvas row-offcanvas-left">
@@ -43,25 +47,42 @@
   <link href="https://ciaranshu.github.io/about/css/aos.css" rel="stylesheet">
   <link href="https://ciaranshu.github.io/about/styles/main.css" rel="stylesheet">
 </head>
+<style>
+.sidebar-content {
+  display: flex !important;
+  flex-direction: column !important;
+}
 
+header {
+
+}
+
+content {
+  flex: 1;  
+}
+
+footer {
+}
+</style>
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
-    <img src="https://ciaranshu.github.io/img/sidebar1.png"  />
-    
-      <p class="sidebar-p">B.Sc @ Uni of Edinburgh</p>
-    
-      <p class="sidebar-p">Guitar/ Photography/ Traveling/ Reading/ Football/ Tennis</p>
-    
+    <div class="header">
+    <img src="https://ciaranshu.github.io/img/logo.png"  />
+  </div>
+  <div class="content">
+  </div>
     <ul class="sidebar-menu">
       
       
-        <li><a href="https://ciaranshu.github.io/">Home</a></li>
+        <li><label><a href="https://ciaranshu.github.io/">Home</a></label></li>
       
-        <li><a href="https://ciaranshu.github.io/photo/">Photography</a></li>
+        <li><label><a href="https://ciaranshu.github.io/tech/">Blog</a></label></li>
       
-        <li><a href="https://ciaranshu.github.io/about/index.html">Profile</a></li>
+        <li><label><a href="https://ciaranshu.github.io/photo/">Photography</a></label></li>
       
-        <li><a href="https://ciaranshu.github.io/contact/">Contact</a></li>
+        <li><label><a href="https://ciaranshu.github.io/resume/">Profile</a></label></li>
+      
+        <li><label><a href="https://ciaranshu.github.io/contact/">Contact</a></label></li>
       
     </ul>
     <p class="social">
@@ -83,13 +104,13 @@
   </a>
   
   
-  <a href="https://www.linkedin.com/in/ciaran-shu/" data-animate-hover="pulse">
+  <a href="https://www.linkedin.com/in/ciaran-shu/" data-animate-hover="pulse" class="linkedin">
     <i class="fa fa-linkedin"></i>
   </a>
   
   
   
-  <a href="https://github.com/Ciaranshu" data-animate-hover="pulse">
+  <a href="https://github.com/Ciaranshu" data-animate-hover="pulse" class="Github">
     <i class="fa fa-github"></i>
   </a>
   
@@ -99,7 +120,7 @@
     <div class="copyright">
       <p class="credit">
         
-          &copy; 2018 Chang Shu (Ciaran) | All Copyright Reserved | Currently Based in Edinburgh, United Kingdom
+          &copy; 2018 Chang Shu (Ciaran) | Based in Edinburgh, United Kingdom
         
         
 
@@ -109,32 +130,178 @@
 </div>
 
               
-  <div class="col-xs-12 col-sm-8 col-md-9 content-column">
+    <style>
+   
+  .tf-filter-item {
+    display: none;
+  }
+
+  button.select{
+    background-color: #6699A1 !important;
+    color: #FFFFFF !important;
+  }
+
+  button.active {
+    background-color: #FFFFFF !important;
+    color: #6699A1 !important;
+  }
+
+  button.disable-button {
+    background-color: #B4B4B4 !important;
+    color: #FFFFFF !important;
+  }
+
+  .show-item {
+    display: inline-block;
+  }
+   
+  section {
+    margin-top: 18px !important;
+  }
+  .tf-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tf-buttons-container {
+    margin-bottom: 18px !important;
+
+  }
+  .tf-item {
+    width: 250px;
+    margin: 8px;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    margin-bottom: 2rem
+  }
+
+  .chroma {
+    overflow-x: auto;
+    padding: 4px;
+
+  }
+
+  .panel {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+  }
+
+  .acc:after {
+    content: '\02795';
+    color: #fff;
+    margin-left: 5px;
+  }
+
+  .acc.active:after {
+      content: "\2796";
+  }
+
+  .navbtn {
+    padding: 0.5rem!important;
+    font-size: 90%!important;
+
+  }
+  .nava {
+    text-transform: none;
+    font-size: 90%!important;
+  }
+  </style>
+
+<div class="col-xs-12 col-sm-8 col-md-9 content-column">
     <div class="small-navbar visible-xs">
-  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left" style="font-size:10pt;background-color: #54a2a1;color: #FFFFFF"> <i class="fa fa-align-left"> </i>Menu</button>
-  <h1 class="small-navbar-heading"><a href="https://ciaranshu.github.io/">Underflow</a></h1>
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left" style="font-size:15pt;background-color: #54a2a1;color: #FFFFFF"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading" style="font-size:16pt"><a href="https://ciaranshu.github.io/">Underflow</a></h1>
 </div>
 
-    <div class="grid">
+    
+    
+
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="tf-wrapper">
+    <div class="tf-buttons-container flex-grow">
+
+
+      <button xx class="btn btn-ghost btn-round" style="text-transform: Uppercase;font-size:10pt;background-color: #6699A1;color: #FFFFFF;margin-right:8px" id="selectAllTags" onclick="htf.showAll('tags')">
+        All Tags
+      </button>
+      
+        
+          <button xx class="tag-button btn btn-ghost btn-round" style="text-transform: Uppercase;font-size:10pt;background-color: #6699A1;color: #FFFFFF;margin-right:8px" id="tag-nlp" onclick="htf.checkFilter('nlp', 'tag-')">
+            <span>Nlp</span>
+            <span style="display:none" id="stags-nlp"> -count-</span><span style="display:none" id="ctags-nlp"> -count-</span>
+          </button>
+        
+      
+        
+          <button xx class="tag-button btn btn-ghost btn-round" style="text-transform: Uppercase;font-size:10pt;background-color: #6699A1;color: #FFFFFF;margin-right:8px" id="tag-dialogue-systems" onclick="htf.checkFilter('dialogue-systems', 'tag-')">
+            <span>Dialogue Systems</span>
+            <span style="display:none" id="stags-dialogue-systems"> -count-</span><span style="display:none" id="ctags-dialogue-systems"> -count-</span>
+          </button>
+        
+      
+        
+          <button xx class="tag-button btn btn-ghost btn-round" style="text-transform: Uppercase;font-size:10pt;background-color: #6699A1;color: #FFFFFF;margin-right:8px" id="tag-nndial" onclick="htf.checkFilter('nndial', 'tag-')">
+            <span>Nndial</span>
+            <span style="display:none" id="stags-nndial"> -count-</span><span style="display:none" id="ctags-nndial"> -count-</span>
+          </button>
+        
+      
+      
+      <button xx class="tag-button btn btn-ghost btn-round" style="font-size:10pt;background-color: #6699A1;color: #FFFFFF;margin-right:8px" id="tag-tfUntagged" onclick="htf.checkFilter('tfUntagged', 'tag-')">
+        UNTAGGED <span style="display:none" id="stags-tfUntagged"> -count-</span><span style="display:none" id="ctags-tfUntagged"> -count-</span>
+      </button>
+      
+    </div>
+    <div class="tf-items-container">
         <div class="row">
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work2/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-2/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/business-card-26.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
                       <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work2/">Name of the work 2</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-2/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -143,23 +310,27 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work3/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-3/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/gravity-paper.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
                       <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work3/">Name of the work 3</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-3/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -168,86 +339,27 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                      
-                      <div class="box-masonry-text">
-                      
-                          <h4><a href="https://ciaranshu.github.io/tech/work4/">Item without image</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-</p>
-                                
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work5/" title="" class="box-masonry-image with-hover-overlay">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-4/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/business-card.jpg" alt="" class="img-responsive">
-                        </a>
-                      
-                      
-                      <div class="box-masonry-hover-text-header">
-                      
-                          <h4><a href="https://ciaranshu.github.io/tech/work5/">Name of the work 5</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.
-</p>
-                                
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                      
-                      <div class="box-masonry-text">
-                      
-                          <h4><a href="https://ciaranshu.github.io/tech/work6/">Name of the work 6</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.
-</p>
-                                
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                        
-                        <a href="https://ciaranshu.github.io/tech/work7/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        
-                            <img src="..\img/portfolio/label-clothes.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
                       <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work7/">Name of the work 7</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-4/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -256,23 +368,27 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work8/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-5/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/ipad-air-2.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
                       <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work8/">Name of the work 8</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-5/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -281,23 +397,27 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags=" tfUntagged"
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work9/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-6/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/envelope-brand.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
                       <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work9/">Item with image</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-6/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-info">Untagged</span></div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -306,23 +426,27 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work10/" title="" class="box-masonry-image with-hover-overlay">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-7/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/trifold.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
-                      <div class="box-masonry-hover-text-header">
+                      <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work10/">Item with image</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-7/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -331,23 +455,27 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work11/" title="" class="box-masonry-image with-hover-overlay">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-8/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/paper-presentation.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
-                      <div class="box-masonry-hover-text-header">
+                      <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work11/">Item with image</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-8/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -356,23 +484,85 @@
                   </div>
               </div>
           
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
                       
                         
-                        <a href="https://ciaranshu.github.io/tech/work1/" title="" class="box-masonry-image with-hover-overlay">
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy-9/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
                         
-                            <img src="..\img/portfolio/a4-paper.jpg" alt="" class="img-responsive">
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
                         </a>
                       
                       
-                      <div class="box-masonry-hover-text-header">
+                      <div class="box-masonry-text">
                       
-                          <h4><a href="https://ciaranshu.github.io/tech/work1/">Name of the work 1</a></h4>
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy-9/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
                           <div class="box-masonry-description">
                             <p>
                                 
-                                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
+</p>
+                                
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
+                      
+                        
+                        <a href="https://ciaranshu.github.io/tech/nndial-1-copy/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
+                        </a>
+                      
+                      
+                      <div class="box-masonry-text">
+                      
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1-copy/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
+                          <div class="box-masonry-description">
+                            <p>
+                                
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
+</p>
+                                
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 tf-filter-item"
+              data-tags="dialogue-systems nndial nlp "
+              >
+                  <div class="box-masonry " >
+                      
+                        
+                        <a href="https://ciaranshu.github.io/tech/nndial-1/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        
+                            <img src="..\img/blog/chatbot.png" alt="" class="img-responsive">
+                        </a>
+                      
+                      
+                      <div class="box-masonry-text">
+                      
+                          <h4><a href="https://ciaranshu.github.io/tech/nndial-1/">NNDial Notes - 1</a></h4>
+                          <div><span class="badge badge-primary">Dialogue Systems</span> <span class="badge badge-primary">N N Dial</span> <span class="badge badge-primary">N L P</span> </div>
+                          <div class="box-masonry-description">
+                            <p>
+                                
+                                  <p>This is the Part 1 of notes for understanding NNDIAL which is a Network-based End-to-End Trainable Task-oriented Dialogue System developed by the Cambridge Dialogue System Group. This part focuses on the <strong>general structure</strong> of NNDIAL System.
 </p>
                                 
                             </p>
@@ -383,6 +573,31 @@
           
         </div>
     </div>
+</div>
+  </div>
+    <script src="https://ciaranshu.github.io/js/hugotagsfilter.js"></script>
+    <script>
+    var htfConfig = {
+      filters: [
+        {
+          name: 'tags',
+          prefix: 'tag-',
+          buttonClass: 'tag-button',
+          allSelector: '#selectAllTags',
+          attrName: 'data-tags',
+          selectedPrefix: 'stags-',
+          countPrefix: 'ctags-'
+        }
+      ],
+      showItemClass: "show-item",
+      filterItemClass: "tf-filter-item",
+      activeButtonClass: "active",
+      counterSelector: "selectedItemCount",
+      populateCount: true,
+      setDisabledButtonClass: "disable-button"
+    }
+    var htf = new HugoTagsFilter(htfConfig);
+    </script>
 </div>
 
 

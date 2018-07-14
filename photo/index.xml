@@ -101,5 +101,39 @@
 &lt;li&gt;Osaka</description>
     </item>
     
+    <item>
+      <title>Greece</title>
+      <link>https://ciaranshu.github.io/photo/greece/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://ciaranshu.github.io/photo/greece/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Athens&lt;/li&gt;
+&lt;li&gt;Santorini</description>
+    </item>
+    
+    <item>
+      <title>Denmark</title>
+      <link>https://ciaranshu.github.io/photo/denmark/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://ciaranshu.github.io/photo/denmark/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Copenhagen&lt;/li&gt;
+&lt;li&gt;Elsinore&lt;/li&gt;
+&lt;li&gt;Helsing</description>
+    </item>
+    
+    <item>
+      <title>Sweden</title>
+      <link>https://ciaranshu.github.io/photo/sweden/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://ciaranshu.github.io/photo/sweden/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Stockholm&lt;/li&gt;
+&lt;li&gt;Malmo</description>
+    </item>
+    
   </channel>
 </rss>

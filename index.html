@@ -13,6 +13,10 @@
 <link rel="stylesheet" href="https://ciaranshu.github.io/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://ciaranshu.github.io/css/owl.carousel.css">
 <link rel="stylesheet" href="https://ciaranshu.github.io/css/owl.theme.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<link rel=“stylesheet” href=“//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css”>
+
 
 
   <link href="https://ciaranshu.github.io/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
@@ -34,7 +38,7 @@
 
 
 </head>
-<body>
+<body background= "https://ciaranshu.github.io/img/background.jpg">
   <div id="all">
       <div class="container-fluid">
           <div class="row row-offcanvas row-offcanvas-left">
@@ -44,25 +48,42 @@
   <link href="https://ciaranshu.github.io/about/css/aos.css" rel="stylesheet">
   <link href="https://ciaranshu.github.io/about/styles/main.css" rel="stylesheet">
 </head>
+<style>
+.sidebar-content {
+  display: flex !important;
+  flex-direction: column !important;
+}
 
+header {
+
+}
+
+content {
+  flex: 1;  
+}
+
+footer {
+}
+</style>
 <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
-    <img src="https://ciaranshu.github.io/img/sidebar1.png"  />
-    
-      <p class="sidebar-p">B.Sc @ Uni of Edinburgh</p>
-    
-      <p class="sidebar-p">Guitar/ Photography/ Traveling/ Reading/ Football/ Tennis</p>
-    
+    <div class="header">
+    <img src="https://ciaranshu.github.io/img/logo.png"  />
+  </div>
+  <div class="content">
+  </div>
     <ul class="sidebar-menu">
       
       
-        <li><a href="https://ciaranshu.github.io/">Home</a></li>
+        <li><label><a href="https://ciaranshu.github.io/">Home</a></label></li>
       
-        <li><a href="https://ciaranshu.github.io/photo/">Photography</a></li>
+        <li><label><a href="https://ciaranshu.github.io/tech/">Blog</a></label></li>
       
-        <li><a href="https://ciaranshu.github.io/about/index.html">Profile</a></li>
+        <li><label><a href="https://ciaranshu.github.io/photo/">Photography</a></label></li>
       
-        <li><a href="https://ciaranshu.github.io/contact/">Contact</a></li>
+        <li><label><a href="https://ciaranshu.github.io/resume/">Profile</a></label></li>
+      
+        <li><label><a href="https://ciaranshu.github.io/contact/">Contact</a></label></li>
       
     </ul>
     <p class="social">
@@ -84,13 +105,13 @@
   </a>
   
   
-  <a href="https://www.linkedin.com/in/ciaran-shu/" data-animate-hover="pulse">
+  <a href="https://www.linkedin.com/in/ciaran-shu/" data-animate-hover="pulse" class="linkedin">
     <i class="fa fa-linkedin"></i>
   </a>
   
   
   
-  <a href="https://github.com/Ciaranshu" data-animate-hover="pulse">
+  <a href="https://github.com/Ciaranshu" data-animate-hover="pulse" class="Github">
     <i class="fa fa-github"></i>
   </a>
   
@@ -100,7 +121,7 @@
     <div class="copyright">
       <p class="credit">
         
-          &copy; 2018 Chang Shu (Ciaran) | All Copyright Reserved | Currently Based in Edinburgh, United Kingdom
+          &copy; 2018 Chang Shu (Ciaran) | Based in Edinburgh, United Kingdom
         
         
 
@@ -112,8 +133,8 @@
               
   <div class="col-xs-12 col-sm-8 col-md-9 content-column">
     <div class="small-navbar visible-xs">
-  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left" style="font-size:10pt;background-color: #54a2a1;color: #FFFFFF"> <i class="fa fa-align-left"> </i>Menu</button>
-  <h1 class="small-navbar-heading"><a href="https://ciaranshu.github.io/">Underflow</a></h1>
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left" style="font-size:15pt;background-color: #54a2a1;color: #FFFFFF"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading" style="font-size:16pt"><a href="https://ciaranshu.github.io/">Underflow</a></h1>
 </div>
 
     <div class="grid">
@@ -327,6 +348,35 @@
                             <p>
                                 
                                   <p>A memorandum application on Android using the process of cultivating plants to symbolize user’s schedule.
+</p>
+                                
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      
+                        
+                            
+                            <a href="https://github.com/Ciaranshu/Ciaranshu.github.io" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                            
+                        
+                            <img src="img/portfolio/blog.png" alt="" class="img-responsive">
+                        </a>
+                      
+                      
+                      <div class="box-masonry-text">
+                      
+                          
+                          <h4><a href="https://github.com/Ciaranshu/Ciaranshu.github.io">Personal Blog</a></h4>
+                          
+                          <div class="box-masonry-description">
+                            <p>
+                                
+                                  <p>This is my personal tech blog <em>UnderFlow</em> which is inspired by the Hugo template <a href="https://github.com/kishaningithub/hugo-creative-portfolio-theme">creative portfolio</a> with following extra features: Tag filter for blog articles, New designs of sidebar and about pages with interactive effects, Contact pages using google maps and Multi-language support.
 </p>
                                 
                             </p>

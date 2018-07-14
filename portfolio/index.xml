@@ -91,5 +91,15 @@
 &lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Personal Blog</title>
+      <link>https://ciaranshu.github.io/portfolio/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ciaranshu.github.io/portfolio/blog/</guid>
+      <description>&lt;p&gt;This is my personal tech blog &lt;em&gt;UnderFlow&lt;/em&gt; which is inspired by the Hugo template &lt;a href=&#34;https://github.com/kishaningithub/hugo-creative-portfolio-theme&#34;&gt;creative portfolio&lt;/a&gt; with following extra features: Tag filter for blog articles, New designs of sidebar and about pages with interactive effects, Contact pages using google maps and Multi-language support.
+&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photos on Underflow</title>
-    <link>https://ciaranshu.github.io/photo/</link>
+    <link>https://life.ciaranshu.cn/photo/</link>
     <description>Recent content in Photos on Underflow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
     
-	<atom:link href="https://ciaranshu.github.io/photo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://life.ciaranshu.cn/photo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>P.R. China</title>
-      <link>https://ciaranshu.github.io/photo/china/</link>
+      <link>https://life.ciaranshu.cn/photo/china/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/china/</guid>
+      <guid>https://life.ciaranshu.cn/photo/china/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Guizhou(2018)&lt;/li&gt;
 &lt;li&gt;Guangxi(2018)&lt;/li&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>United Kingdom</title>
-      <link>https://ciaranshu.github.io/photo/uk/</link>
+      <link>https://life.ciaranshu.cn/photo/uk/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/uk/</guid>
+      <guid>https://life.ciaranshu.cn/photo/uk/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Edinburgh&lt;/li&gt;
 &lt;li&gt;Falkirk&lt;/li&gt;
@@ -53,19 +53,19 @@
     
     <item>
       <title>Singapore</title>
-      <link>https://ciaranshu.github.io/photo/singapore/</link>
+      <link>https://life.ciaranshu.cn/photo/singapore/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/singapore/</guid>
+      <guid>https://life.ciaranshu.cn/photo/singapore/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>R.O. China</title>
-      <link>https://ciaranshu.github.io/photo/taiwan/</link>
+      <link>https://life.ciaranshu.cn/photo/taiwan/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/taiwan/</guid>
+      <guid>https://life.ciaranshu.cn/photo/taiwan/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Taibei&lt;/li&gt;
 &lt;li&gt;Jiufen&lt;/li&gt;
@@ -75,10 +75,10 @@
     
     <item>
       <title>Thailand</title>
-      <link>https://ciaranshu.github.io/photo/thai/</link>
+      <link>https://life.ciaranshu.cn/photo/thai/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/thai/</guid>
+      <guid>https://life.ciaranshu.cn/photo/thai/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Bangkok&lt;/li&gt;
 &lt;li&gt;Singburi&lt;/li&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>Japan</title>
-      <link>https://ciaranshu.github.io/photo/japan/</link>
+      <link>https://life.ciaranshu.cn/photo/japan/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/japan/</guid>
+      <guid>https://life.ciaranshu.cn/photo/japan/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Tokyo&lt;/li&gt;
 &lt;li&gt;Yokohama&lt;/li&gt;
@@ -103,10 +103,10 @@
     
     <item>
       <title>Greece</title>
-      <link>https://ciaranshu.github.io/photo/greece/</link>
+      <link>https://life.ciaranshu.cn/photo/greece/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/greece/</guid>
+      <guid>https://life.ciaranshu.cn/photo/greece/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Athens&lt;/li&gt;
 &lt;li&gt;Santorini</description>
@@ -114,10 +114,10 @@
     
     <item>
       <title>Denmark</title>
-      <link>https://ciaranshu.github.io/photo/denmark/</link>
+      <link>https://life.ciaranshu.cn/photo/denmark/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/denmark/</guid>
+      <guid>https://life.ciaranshu.cn/photo/denmark/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Copenhagen&lt;/li&gt;
 &lt;li&gt;Elsinore&lt;/li&gt;
@@ -126,10 +126,10 @@
     
     <item>
       <title>Sweden</title>
-      <link>https://ciaranshu.github.io/photo/sweden/</link>
+      <link>https://life.ciaranshu.cn/photo/sweden/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/photo/sweden/</guid>
+      <guid>https://life.ciaranshu.cn/photo/sweden/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Stockholm&lt;/li&gt;
 &lt;li&gt;Malmo</description>

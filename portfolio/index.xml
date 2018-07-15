@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Underflow</title>
-    <link>https://ciaranshu.github.io/portfolio/</link>
+    <link>http://www.ciaranshu.cn/portfolio/</link>
     <description>Recent content in Portfolios on Underflow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Mar 2018 19:41:01 +0530</lastBuildDate>
     
-	<atom:link href="https://ciaranshu.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.ciaranshu.cn/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Paper of CNVs Detection</title>
-      <link>https://ciaranshu.github.io/portfolio/papercnv/</link>
+      <link>http://www.ciaranshu.cn/portfolio/papercnv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/papercnv/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/papercnv/</guid>
       <description>&lt;p&gt;Introduced two popular genome amplification methods, compared their capabilities and evaluated a few popular models for calling single-nucleotide polymorphisms and copy-number variations.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Remote Control for deployment</title>
-      <link>https://ciaranshu.github.io/portfolio/remotecontrol/</link>
+      <link>http://www.ciaranshu.cn/portfolio/remotecontrol/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/remotecontrol/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/remotecontrol/</guid>
       <description>&lt;p&gt;A remote SSH CLI session tool for deployment and maintenance based on python.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Songle</title>
-      <link>https://ciaranshu.github.io/portfolio/songle/</link>
+      <link>http://www.ciaranshu.cn/portfolio/songle/</link>
       <pubDate>Mon, 05 Mar 2018 19:41:01 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/songle/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/songle/</guid>
       <description>&lt;p&gt;A location-based mobile phone puzzle game which allows users to follow a map and collect words. The words make up the lyrics of a well-known song and user need to guess the song from the collected words.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>OpenCV TicTacToe</title>
-      <link>https://ciaranshu.github.io/portfolio/zhiqi/</link>
+      <link>http://www.ciaranshu.cn/portfolio/zhiqi/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/zhiqi/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/zhiqi/</guid>
       <description>&lt;p&gt;The visual TicTacToe and Chinese ZhiQi game with OpenCV
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Leo: Robot Assistant for the Elderly</title>
-      <link>https://ciaranshu.github.io/portfolio/leo/</link>
+      <link>http://www.ciaranshu.cn/portfolio/leo/</link>
       <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/leo/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/leo/</guid>
       <description>&lt;p&gt;An assistive gaming robot with Alexa Skills Kit for the elderly to maintain their cognitive fitness by interacting with preset games physically and verbally. Gaming modes include memory game, reflection game and verbal game with the advanced features like facial detection and voice command.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Unity B3 game</title>
-      <link>https://ciaranshu.github.io/portfolio/unityb3/</link>
+      <link>http://www.ciaranshu.cn/portfolio/unityb3/</link>
       <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/unityb3/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/unityb3/</guid>
       <description>&lt;p&gt;A 3D shooting game developed based on Unity 3D engine with totally original models, scripts, and background music. Most of those characters and scenes were built by voxel modeling, contributing to the unique game style, voxel style. This game style was widely spread with the population of sandbox games, like Minecraft.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>System for Library Management</title>
-      <link>https://ciaranshu.github.io/portfolio/libarymanagement/</link>
+      <link>http://www.ciaranshu.cn/portfolio/libarymanagement/</link>
       <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/libarymanagement/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/libarymanagement/</guid>
       <description>&lt;p&gt;A desktop application based on Qt for library seats  management with reservation and search features.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Android Memo Hana</title>
-      <link>https://ciaranshu.github.io/portfolio/hana/</link>
+      <link>http://www.ciaranshu.cn/portfolio/hana/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/hana/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/hana/</guid>
       <description>&lt;p&gt;A memorandum application on Android using the process of cultivating plants to symbolize user’s schedule.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Personal Blog</title>
-      <link>https://ciaranshu.github.io/portfolio/blog/</link>
+      <link>http://www.ciaranshu.cn/portfolio/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ciaranshu.github.io/portfolio/blog/</guid>
+      <guid>http://www.ciaranshu.cn/portfolio/blog/</guid>
       <description>&lt;p&gt;This is my personal tech blog &lt;em&gt;UnderFlow&lt;/em&gt; which is inspired by the Hugo template &lt;a href=&#34;https://github.com/kishaningithub/hugo-creative-portfolio-theme&#34;&gt;creative portfolio&lt;/a&gt; with following extra features: Tag filter for blog articles, New designs of sidebar and about pages with interactive effects, Contact pages using google maps and Multi-language support.
 &lt;/p&gt;</description>
     </item>
